@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <title>dashboard</title>
+</head>
+
+<body>
+
+    <nav class="navbar p-0">
+        <button class="navbar-toggler position-absolute d-md-none collapsed bg-light " type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-xl-2 d-md-block bg-light sidebar p-0 collapse">
+                <div class="position-sticky  h-100 p-0">
+                    <div class="side d-flex flex-column align-items-center h-100 ">
+                        <div class="bg-transparent rounded-4 text-center w-75 mt-5 mb-5 ">
+                            <img class="img-fluid" src="./IMG/Frame 11.svg" alt="">
+                        </div>
+                        <div class="d-flex flex-column mt-5">
+                            <img src="./IMG/Frame 3.svg" alt="">
+
+                            <div class="mt-5 d-flex justify-content-evenly rounded-3 align-items-center profile1">
+                                <img class="me-1" src="./IMG/profile.svg" alt="">
+                                <span class="fs-4 fw-light me-2">Artist</span>
+
+                            </div>
+                            <div class="d-flex mt-4 align-items-center justify-content-evenly rounded-3 profile1 ">
+
+                                <img class="me-1" src="./IMG/gallery.svg" alt="">
+                                <span class="fs-5 fw-light">Projects</span>
+                            </div>
+                            <div class="d-flex  mt-4 align-items-center justify-content-evenly rounded-3 mb-7 profile1 mb-5">
+
+                                <img class="me-2" src="./IMG/receipt-2.svg" alt="">
+                                <span class="fs-4 fw-light me-3">Sales</span>
+                            </div>
+                            <div class="d-flex mt-4 align-items-center justify-content-evenly rounded-3 profile1 ">
+
+                                <img class="me-1" src="./IMG/Vector.svg" alt="">
+                                <span class="fs-5 fw-light">Settings</span>
+                            </div>
+                            <div class="d-flex  mt-4 align-items-center justify-content-evenly rounded-3 profile1">
+
+                                <img class="me-2 ms-2 " src="./IMG/logout.svg" alt="">
+                                <span class="fs-4 fw-light me-3 text-danger">Logout</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ml-sm-auto col-lg-9 col-xl-10 pl-md-4">
+                <div class="row">
+                    <div class="col-8">
+
+                        <div class="card w-100 col-5 border-0 rounded-2" style="margin-top: 55px;">
+
+                            <div class="input-group input-group-lg p-2 rounded-2">
+                                <span class="input-group-text border-0 px-1" id="basic-addon2"><i
+                                        class="fas fa-search fa-lg"></i></span>
+                                <input type="text" class="form-control form-control-lg border-0" placeholder="Search" aria-label="Search" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+
+                        <div class="d-flex justify-content-center" style="margin-top: 62px;">
+
+                            <img src="./img/photo_2022-03-08_16-39-09.jpg" class="rounded-circle me-4 " height="50" />
+                            <div class="d-flex flex-column  justify-content-center ml-2">
+
+                                <p class="text-black fw-bold m-0">POUYA jalili</p>
+                                <p class="m-0 fw-lighter text-secondary">Admin</p>
+                            </div>
+
+
+
+                            <i class="fas fa-bell fs-4 mt-2 ml-1  fw-normal"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <h4 class="mt-5 mb-4">In the last 30 days,</h4>
+
+
+                <div class="row">
+                    <div class="col-12 col-xl-8 ">
+
+                        <div class="d-flex justify-content-evenly mb-5" style="gap: 5rem ;">
+                            <div class="card__img d-flex flex-column justify-content-center">
+                                <h5 class="text-light ml-2 fs-3">30,000</h5>
+                                <p class="text-light ml-2 mb-0 fw-lighter">Art sales</p>
+
+                            </div>
+                            <div class="card__img d-flex flex-column justify-content-center  ">
+                                <h5 class="text-light ml-2 fs-3">250</h5>
+                                <p class="text-light ml-2 mb-0 fw-lighter">New artists</p>
+
+                            </div>
+                            <div class="card__img d-flex flex-column justify-content-center  ">
+                                <h5 class="text-light ml-2 fs-3">$400,000</h5>
+                                <p class="text-light ml-2 mb-0 fw-lighter">Revenue generated</p>
+
+                            </div>
+                        </div>
+
+                        <h4 class="mt-5">All artists</h4>
+
+
+                        <div class="d-flex justify-content-between">
+                            <p class="fs-6 text-black-50 text-opacity-50 fw-light">Monitor artist sales, reviews, etc.
+                            </p>
+                            <div class="d-flex justify-content-between mr-5">
+
+
+                                <div class="input-group  rounded-2">
+                                    <button class="btn border-0 " type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    <input class="form-control py-2 border-0" type="search" id="example-search-input " placeholder="Search artists">
+                                    <span class="input-group-append">
+                                        </span>
+                                </div>
+
+                                <div class="d-flex align-items-center ml-3  w-25 justify-content-center rounded-2 fliter__img">
+                                    <img class="fw-bold" src="./IMG/filter-search.svg" alt="">
+                                    <p class="m-0">Filter</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <section class="">
+
+                            <div class="col-md-12 col-xl-10 w-100 mt-5 ">
+
+                                <div class="card table-responsive">
+
+                                    <div class="card-body p-0" data-mdb-perfect-scrollbar="true">
+
+                                        <table class="table mb-0">
+                                            <thead class="" style="background-color: rgba(0, 0, 0, 0.03);">
+                                                <tr style="height: 50px; line-height: 2.2;">
+                                                    <th scope="col">Artist</th>
+                                                    <th scope="col">Status</th>
+                                                    <th scope="col">Ratings</th>
+                                                    <th scope="col">Projects sold</th>
+                                                    <th scope="col">Highest sale</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="fw-normal">
+                                                    <th>
+                                                        <img src="./IMG/image 12.svg" class="rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                                        <span class="ms-2">Bluenose</span>
+                                                    </th>
+                                                    <td class="align-middle">
+                                                        <span class="p-2 rounded-2 text-success" style="background-color: 
+                                                            rgba(222, 237, 229, 1);">Verified</span>
+
+                                                    </td>
+                                                    <td class="align-middle">
+                                                        <img src="./IMG/Group 7.svg" alt="">
+                                                        <span>40%</span>
+                                                        <span class="text-center p-1 rounded-2 text-success" style="background-color: 
+                                                            rgba(222, 237, 229, 1);">
+                                                                <img style="margin-top: -5px;" src="./IMG/Frame 19.svg"
+                                                                    alt=""></span>
+
+
+                                                    </td>
+                                                    <td class="align-middle">400</td>
+
+                                                    <td class="align-middle">$400,000</td>
+
+                                                </tr>
+                                                <tr class="fw-normal">
+                                                    <th>
+                                                        <img src="./IMG/Ellipse 3.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                                        <span class="ms-2">Pennywise</span>
+                                                    </th>
+                                                    <td class="align-middle">
+                                                        <span class="p-2 rounded-2 text-warning" style="background-color:
+                                                            rgba(253, 248, 206, 1)">Pending</span>
+
+                                                    </td>
+                                                    <td class="align-middle">
+                                                        <img src="./IMG/group7.svg" alt="">
+                                                        <span>57%</span>
+                                                        <span class="text-center p-1 rounded-2 text-success" style="background-color:
+                                                            rgba(237, 222, 222, 1)">
+    
+                                                                <img style="margin-top: -5px;" src="./IMG/frame21.svg"
+                                                                    alt=""></span>
+                                                    </td>
+                                                    <td class="align-middle">200</td>
+
+                                                    <td class="align-middle">$400,000</td>
+
+                                                </tr>
+                                                <tr class="fw-normal">
+                                                    <th>
+                                                        <img src="./IMG/image 10.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                                        <span class="ms-2">Flotsam</span>
+                                                    </th>
+                                                    <td class="align-middle">
+                                                        <span class="p-2 rounded-2 text-success" style="background-color: 
+                                                            rgba(222, 237, 229, 1);">Verified</span>
+                                                    </td>
+                                                    <td class="align-middle">
+                                                        <img src="./IMG/Group8.svg" alt="">
+                                                        <span>89%</span>
+                                                        <span class="text-center p-1 rounded-2 text-success" style="background-color: 
+                                                            rgba(222, 237, 229, 1);">
+                                                                <img style="margin-top: -5px;" src="./IMG/frame22.svg"
+                                                                    alt=""></span>
+                                                    </td>
+                                                    <td class="align-middle">40,000 </td>
+
+                                                    <td class="align-middle">$1,400,000</td>
+
+
+                                                </tr>
+                                                <tr class="fw-normal">
+                                                    <th>
+                                                        <img src="./IMG/Ellipse 4.svg" class="rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                                        <span class="ms-2">Gregautsch</span>
+                                                    </th>
+                                                    <td class="align-middle">
+                                                        <span class="text-black-50">Unverified</span>
+
+                                                    </td>
+                                                    <td class="align-middle text-muted">No ratings available</td>
+                                                    <td class="align-middle">0</td>
+
+                                                    <td class="align-middle">$0</td>
+
+
+                                                </tr>
+                                                <tr class="fw-normal">
+                                                    <th class="">
+                                                        <img src="./IMG/Ellipse 5.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                                        <span class="ms-2">ElPistolero</span>
+                                                    </th>
+                                                    <td class="align-middle">
+                                                        <span class="p-2 rounded-2 text-success" style="background-color: 
+                                                            rgba(222, 237, 229, 1);">Verified</span>
+                                                    </td>
+                                                    <td class="align-middle">
+                                                        <img src="./IMG/Group10.svg" alt="">
+                                                        <span>50%</span>
+                                                        <span class="text-center p-1 rounded-2 text-success" style="background-color: 
+                                                            rgba(237, 222, 222, 1)">
+                                                                <img style="margin-top: -5px;" src="/IMG/frame23.svg"
+                                                                    alt=""></span>
+                                                    </td>
+                                                    <td class="align-middle">30</td>
+
+                                                    <td class="align-middle">$25,000</td>
+
+
+                                                </tr>
+                                                <tr class="fw-normal">
+                                                    <th class="border-0">
+                                                        <img src="./IMG/Indian Man.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                                        <span class="ms-2">Siuuuuuuuu</span>
+                                                    </th>
+                                                    <td class="border-0 align-middle">
+                                                        <span class="p-2 rounded-2 text-warning" style="background-color:
+                                                            rgba(253, 248, 206, 1)">Pending</span>
+                                                    </td>
+                                                    <td class="border-0 align-middle">
+                                                        <img src="./IMG/Group11.svg" alt="">
+                                                        <span>64%</span>
+                                                        <span class="text-center p-1 rounded-2 text-success" style="background-color: 
+                                                            rgba(222, 237, 229, 1);">
+                                                                <img style="margin-top: -5px;" src="./IMG/frame24.svg"
+                                                                    alt=""></span>
+                                                    </td>
+                                                    <td class="border-0 align-middle">400</td>
+
+                                                    <td class="border-0 align-middle">$400,000</td>
+
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                    <div class="card-footer p-3">
+                                        <div class="demo">
+                                            <nav class="pagination-outer">
+                                                <ul class="pagination d-flex justify-content-start">
+                                                    <li class="page-item">
+                                                        <a class="page-link">
+                                                            <span>« Previous</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link">1</a></li>
+                                                    <li class="page-item"><a class="page-link">2</a></li>
+                                                    <li class="page-item active"><a class="page-link">3</a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link">4</a></li>
+                                                    <li class="page-item"><a class="page-link">5</a></li>
+                                                    <li class="page-item">
+                                                        <a class="page-link">
+                                                            <span>Next »</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                        <div class=" d-flex flex-column mt-5 mt-xl-0">
+
+                            <div class=" d-flex flex-column justify-content-around mx-auto py-3 px-2 rounded-2" style="width: 85%; background-color: rgba(0, 0, 0, 0.03);">
+                                <h4 class="mb-0 mx-auto">Best-selling artists</h4>
+                                <div class="d-flex align-items-center mt-4 w-100 justify-content-between ">
+                                    <div class="d-flex align-items-center">
+
+                                        <img src="./IMG/11.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                        <span class="ms-2 fw-bold">Flotsam</span>
+                                    </div>
+                                    <span class="text-black-50 text-center">40k+ sales</span>
+                                    <span class="text-black-50 text-center">$1.4m revenue</span>
+                                </div>
+                                <div class="d-flex align-items-center mt-4 w-100 justify-content-between ">
+                                    <div class="d-flex align-items-center">
+
+                                        <img src="./IMG/12.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                        <span class="ms-2 fw-bold">Siuuuuu</span>
+                                    </div>
+                                    <span class="text-black-50 text-center">40k+ sales</span>
+                                    <span class="text-black-50 text-center">$1.4m revenue</span>
+                                </div>
+                                <div class="d-flex align-items-center mt-4 w-100 justify-content-between flex-lg-row ">
+                                    <div class="d-flex align-items-center">
+
+                                        <img src="./IMG/13.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                        <span class="ms-2 fw-bold">Bluenose</span>
+                                    </div>
+                                    <span class="text-black-50 text-center">40k+ sales</span>
+                                    <span class="text-black-50 text-center">$1.4m revenue</span>
+                                </div>
+                                <div class="mx-auto mt-4">
+
+                                    <img class="hover__image" src="./IMG/Frame 25.svg" alt="">
+                                </div>
+
+                            </div>
+                            <div class=" d-flex flex-column justify-content-around mx-auto mt-5 py-3 px-2 rounded-2" style="width: 85%; background-color: rgba(0, 0, 0, 0.03);">
+                                <h4 class="mb-0 mx-auto">Best-selling artists</h4>
+                                <div class="d-flex align-items-center mt-4 w-100 justify-content-between">
+                                    <div class="d-flex align-items-center">
+
+                                        <img src="./IMG/Rectangle 24.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                        <span class="ms-2 fw-bold">Flotsam</span>
+                                    </div>
+                                    <span class="text-black-50 text-center">40k+ sales</span>
+                                    <span class="text-black-50 text-center">$1.4m revenue</span>
+                                </div>
+                                <div class="d-flex align-items-center mt-4 w-100 justify-content-between">
+                                    <div class="d-flex align-items-center">
+
+                                        <img src="./IMG/Vectary texture.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                        <span class="ms-2 fw-bold">Astrom</span>
+                                    </div>
+                                    <span class="text-black-50 text-center">40k+ sales</span>
+                                    <span class="text-black-50 text-center">$1.4m revenue</span>
+                                </div>
+                                <div class="d-flex align-items-center mt-4 w-100 justify-content-between">
+                                    <div class="d-flex align-items-center">
+
+                                        <img src="./IMG/Vectary texture2.svg" class=" rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                                        <span class="ms-2 fw-bold">$Moon</span>
+                                    </div>
+                                    <span class="text-black-50 text-center">40k+ sales</span>
+                                    <span class="text-black-50 text-center">$1.4m revenue</span>
+                                </div>
+                                <div class="mx-auto mt-4">
+
+                                    <img class="hover__image" src="./IMG/Frame 25.svg" alt="">
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="d-flex align-items-center justify-content-evenly" style="margin-top:2.5rem">
+                            <div class="d-flex justify-content-evenly align-items-center" style="width: 40%;">
+                                <img src="./IMG/time1.svg" alt="">
+                                <span class="fw-bold"> :</span>
+                                <img src="./IMG/time2.svg" alt="">
+                                <div class="text-center" style="background-color:rgba(180, 205, 147, 1); width: 40px; height: 40px; border-radius:4px">
+                                    <img class="mt-2" src="./IMG/PM.svg" alt="">
+
+                                </div>
+                            </div>
+                            <h4>11/05/2022</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </main>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
