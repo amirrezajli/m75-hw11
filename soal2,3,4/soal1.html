@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soal1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container mx-auto pt-8 ">
+        <div class="flex flex-col">
+            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+                    <div class=" overflow-hidden ">
+                        <!-- <button id="btn" style="background-color:greenyellow; width:5rem;">add</button>
+                        <button id="BTN" style="background-color:red; width:5rem;">remove</button> -->
+
+                        <table class="min-w-full text-center border-gray-200"id="myTable">
+                            <thead class="border-b">
+                                <tr>
+                                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 ">
+                                        Class
+                                    </th>
+                                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
+                                        Heading
+                                    </th>
+                                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4">
+                                        Heading
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        Default
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  border-blue-200" id="Primary">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        Primary
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  border-purple-200" id="Secondary">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        Secondary
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  border-green-200" id="Success">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        Success
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  border-red-200" id="Danger">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap ">
+                                        Danger
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  border-yellow-200" id="Warning">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        Warning
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  border-indigo-200" id="info">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        Info
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  border-gray-200" id="light">
+                                    <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                                        Light
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                                <tr class="border-b  boder-gray-900" id="dark">
+                                    <td class="text-sm text-white font-medium px-6 py-4 whitespace-nowrap">
+                                        Dark
+                                    </td>
+                                    <td class="text-sm text-white font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                    <td class="text-sm text-white font-light px-6 py-4 whitespace-nowrap">
+                                        Cell
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./soal1.js"></script>
+</body>
+
+</html>
